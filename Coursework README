@@ -1,0 +1,15 @@
+Coursework README
+
+This README will describe how to get the web application working and also how to navigate around the web application.
+
+•	To begin with Levinux must be installed on the computer that is being used; this can be done by visiting mikelev.in/ux/ downloading the latest version of Levinux.  Once that has been done you must log into Levinux and retrieve the file called Coursework.py.
+
+•	To run the file you must simply type python coursework.py.
+
+•	This will start up the web server which you will have access to; to access this you must type localhost:5000/artists into your browser in the URL bar, this will bring you to a page with a list of the artists.
+
+•	From there you can select any artist and move on, for instance, if we select Bon Jovi, we need only add that to the end of the URL to view their albums. Like this: localhost:5000/artists/bon jovi.
+
+•	From there we can now navigate to the track lists by adding the album name onto the end of the URL. Like this: localhost:5000/artists/bon jovi/crush.
+
+•	This is about all you need to know to effectively navigate through the application, just remember that it is localhost:5000/artists/artist name/album name.
