@@ -1,0 +1,92 @@
+Introduction
+
+
+This report will explain in detail what the web app that has been created is supposed to do; it will explain the various functions that the web app will have and also make it obvious what the subject has been used as a base for the app.  The app will be created using Python Flask which is a Python framework that is generally less intense than other frameworks that can be used; this will be implemented using Levinux which is a micro Linux program that makes it extremely easy to get a good experience with programming and using Linux systems.  
+
+The web app is based on music and will provide a listen of Artists, the user will be able to navigate through the application and select one of the artists by adding the name to the URL; doing this will display albums that have been released by the Artist and will allow the user to move on and view the songs on the album.  To do this, the user merely needs to repeat the previous step and add the name of the album on the URL and the list of tracks that are on the album will appear.
+
+Design Section
+
+
+As stated above, the web application has been created using a Linux platform called Levinux, the application itself will be created using Python Flask once again as stated above.  The application will basically allow the user to navigate through and select an artist which they can then view; selecting an artist will allow the user to view what albums a particular artist has created, they can then navigate onwards to see what songs are on each album.
+
+To create what has been described above we will be creating several URL’s which will hold the information that we want to display; these URL’s will obviously be called something similar to what they hold; for instant, the artists web page will be simply called /artists and so on.  We create this by providing a route for the address and setting the route to /artists or whatever we wish the page to go to. 
+
+Obviously we need information to appear on these web pages, and thus we use the render_template to input a list into the webpage, this could then be used to convey the information to the users and allow them to see which artists are actually part application, this then allows them to navigate to the next pages via different URL’s.  This is mainly what the application is made with and how the lists are implemented into the web pages, other than that application is very simple and mainly just uses several routes.
+
+An error reporter has been implemented though it is extremely basic, it simply throws back an error 404 if there is a problem and provides a message telling you what the problem is; given how simply this is, it is actually extremely helpful and can easily be used to decipher what the problem is with the web application.
+
+ 
+Enhancements
+
+
+There are many ways the web application could be improved; these will be explained in detail below.
+
+User Interface
+
+A user interface would be added if the application was continued in the future; this would be done to make general navigation of the web application far easier for anybody using the application, it would also aid in creating an eye catching design which is another enhancement that would be added in the future.  The user interface would likely be a search box which would allow users to search for any artist, album or track that they wish to see; it could also include a menu where the user can simply click on whichever artist they wish to view making it far easier than simply entering the artist name into the URL box.
+
+Eye Catching Interface
+
+As Stated above, an eye catching interface can often be key when developing a product, and although the main desire of an application is for it to do what it is supposed to, a nicely designed interface can attract attention.  This would be done with effect colour pairing and also interesting page designs; buttons would be placed in effective locations where they don’t look out of place and it would be easy to see what button would correspond with what function.
+
+Complete album lists / track lists
+
+
+Obviously since the web application is based on music, users would be interested in finding out everything about the artists, and though there wasn’t enough time previously to fill in every single song for every single band, it would certainly be effective if all the information was in the correct place.  Obviously this isn’t hugely important to the web application, but it would aid in having a sense of completeness with the app, and it would allow all bands to be explored in greater depth.
+
+More Artists
+
+This obviously ties in to what has been written about above though it probably has slightly less of an impact; more artists would simply be a fantastic idea since it would allow more users to have an interest in the application, especially if artists they enjoy listening to are on the list.  Currently there are only ten artists on the list, each of them are part of a very similar genre, this means that users might not use the application since they do not enjoy that genre.  If the number of artists was increase to twenty, or even fifty, it would mean that more users would perhaps show interest in the app, especially if it had a variety of different genres.  
+
+Interactive List
+
+Obviously a user interface was spoken about earlier, and this has a lot to do with one, however I feel if a user interface wasn’t completely implemented, the least that could be done would be an interactive list for the artists and also the albums, 
+
+
+Critical Evaluation
+
+The web application that has been developed is definitely not of a high quality and it definitely could have a huge amount of improvements done to it; the list is not interactive at all and thus a user might struggle to navigate around the application.  An information manual will obviously be provided to give users a guide on how to work the application, but even then an interface should be easy to navigate and it should at least be slightly obvious how a user would go about using it.  
+
+It also is very simplified, the code for example is very basic compared to what could have been used; this mainly comes down to extremely bad time managed and also lack of experience with Python Flask, obviously the code could be changed and made more sophisticated, thus making the application better, though this will unfortunately not be able to happen.
+
+All of the albums would ideally have all of their song names filled in, though unfortunately only the first few have been filled in, I didn’t fill in the other for the sake of saving time, this is however an extremely simply task, it is just very time consuming which is why I left it out.  I have filled in the first few as stated above to show that it could easily be done.
+
+It’s seems rather ridiculous considering how simply git it but there were a lot of problems when trying to push the application in the git repository and thus a lot of time was wasted attempting to fix this, eventually it did work, however it was an unnecessary waste of time which could have easily been fixed by simply having a greater understanding of git and how to fix the problems that arose. 
+
+As will be stated in the personal evaluation, commits were not used as much as they should have done, and thus changes to the web application were only recorded towards the end of the project, and thus will likely not particularly count for much.
+
+Personal Evaluation 
+
+
+Personally I seriously struggled with the development of the web application, and in truth I feel that I perhaps still don’t completely know if I created exactly what is needed, I know there are several parts of the web application that I could definitely have done better, and perhaps with more experience I could certainly redo in a far more effective way.  Having never used Python or Python Flask before at all before this module has made it extremely difficult for me to create my application in an effective time frame; thankfully I had used a Linux platform in the past, though it was never quite in this much depth and thus this was still a rather large hurdle to jump.
+
+Using git was also a reasonable large challenge as well; even know I feel I know very little when it comes to using git, and often when I run into a problem with it I just have absolutely no idea to fix it.  Obviously it isn’t too difficult to get a basic understanding of git, but knowing each command to use when and also when to commit and push is something I still feel I lack understanding on.  I suppose a problem with my understanding here is actually more to do with my lack of attention I paid to exactly what is needed; obviously I was supposed to commit at various intervals, but until recently I hadn’t actually noticed this, and thus I have barely any commits, something that I am severely regretting.
+
+On perhaps a more upbeat note, I feel that I have learned an incredible amount when it comes to using Levinux and also Python Flask.  Something I feel I have always lacked was an effective way of learning various coding languages, especially when I really struggle to pick them up properly; I feel that this web application has seriously helped me improve my understanding of Python Flask which will be extremely effective for the next piece of coursework.  
+
+At first I did run into a rather confusing problem with how I would properly format my application, I feel now that I was probably thinking the application had to be far more substantial than what it actually had to be, and thus eventually I simplified my initial idea and was actually able to implement it, although I still ran into several problems.  I was hoping to create a list of artists, and then have another list for albums and then finally, a list for tracks; eventually I did manage to achieve this, though I was rather hoping to do it in a different way.  I used the render_template to create a list of artists for the artist’s page, though I wasn’t completely happy with this, I did play around and see if I could figure out a different way to convey the information in a more pleasing way, unfortunately I was unable to do so.  
+
+I would say I also didn’t use my time effectively; I spent far too long attempting to fix my application and make it more complicated than it ever should have been, and thus I didn’t have a huge amount of time to write my report, hopefully this will not reflect on my marks, especially given the fact that I had to end my application rather abruptly to give myself time.  
+
+Resources
+
+•	Levinux
+•	Python Flask
+•	Flask Templates
+•	Github
+•	Microsoft Word (Report)
+•	The Internet (Not sure if I need to put this in)
+
+
+
+Bibliography
+http://flask.pocoo.org/
+mikelev.in/ux/
+http://flask.pocoo.org/docs/0.10/quickstart/
+http://flask.pocoo.org/docs/0.10/templating/
+https://try.github.io/levels/1/challenges/1
+https://github.com/
+http://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972
+
+
